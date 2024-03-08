@@ -1,0 +1,50 @@
+body{
+  background-image: url(Aka_background.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+#pic1{
+  height: 60vh;
+  width: 100%;
+  border: solid;
+  border-color:rgb(0, 0, 0);
+  animation: fadeIn 2s;
+
+}
+#pic1cont{
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: rgb(4, 1, 1);
+
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes faden {
+  0% { opacity: 0; }
+100% { opacity: 1; }
+}
+#welc{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 3vh;
+  animation: faden 1.5s;
+  animation-iteration-count: 10;
+  border: solid;
+}
+#cont2{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+#cont3{
+  text-align: center;
+}
